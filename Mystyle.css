@@ -53,6 +53,9 @@ text-decoration: underline;
   .menu, .main, .right {
     width:100%;
   }
+  .profile {
+    display: none;
+  }
 }
 
 img {
