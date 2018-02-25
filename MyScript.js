@@ -15,12 +15,12 @@ function load() {
  
  function load1() {
 	 var data1 = JSON.stringify(obj.data);
-	 console.log(obj.data);
 	var About = "";
     var i;
     for(i = 0; i < obj.data.length; i++) {		
-		About += '<p>' + obj.data[i].name + '</p>';
+		About += '<p style="font-weight: bold; color: darkred;">' + obj.data[i].name + ' - <span>'+ obj.data[i].birthday +'</span></p>';
 		About += '<img src="' + obj.data[i].image_url + '" style="width:250px;height:250px;">';
+		About += '<div style="float: left;margin-bottom: 10px;">'+ obj.data[i].info +'</div>'
     }
 
 	document.getElementById("about").innerHTML = About;

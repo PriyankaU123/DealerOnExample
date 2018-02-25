@@ -5,63 +5,73 @@ var obj = {
             "name": "Nikola Tesla",
             "quote": "The present is theirs; the future, for which I really worked, is mine.",
             "birthday": "July 10, 1856",
-            "image_url": "https://fagma.com/uploads/posts/2011-10/1319709132_tesla.jpg"
+            "image_url": "https://fagma.com/uploads/posts/2011-10/1319709132_tesla.jpg",
+			"info": "Nikola Tesla was born an ethnic Serb in the village Smiljan, Lika county, in the Austrian Empire (present day Croatia), on 10 July 1856. Tesla was the fourth of five children. He had three sisters, Milka, Angelina and Marica, and an older brother named Dane, who was killed in a horse riding accident when Tesla was aged five."
+					
         },
         {
             "id": 2,
             "name": "Albert Einstein",
             "quote": "Imagination is more important than knowledge.",
             "birthday": "March 14, 1879",
-            "image_url": "http://lorempixel.com/300/150/"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMzOvIBuo7QWOgCk2PIPbATOkPDguuzZUva_JnTYb-eSFTMFou",
+			"info": "Albert Einstein was a German-born theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics). His work is also known for its influence on the philosophy of science. He is best known by the general public for his mass–energy equivalence formula E = mc2 (which has been dubbed the world's most famous equation)."
         },
         {
             "id": 3,
             "name": "Isaac Newton",
             "quote": "If I have seen further than others, it is by standing upon the shoulders of giants.",
             "birthday": "December 25, 1642",
-            "image_url": "http://lorempixel.com/300/150/"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI3pbGgYWoG4I8r8OY21_yaMx9nMIXPWg31D7Y6XsxAePVhXMKaA",
+			"info": "Sir Isaac Newton was an English mathematician, astronomer, theologian, author and physicist (described in his own day as a natural philosopher) who is widely recognized as one of the most influential scientists of all time and a key figure in the scientific revolution. His book Philosophiæ Naturalis Principia Mathematica (Mathematical Principles of Natural Philosophy), first published in 1687, laid the foundations of classical mechanics."
         },
         {
             "id": 4,
             "name": "Galileo Galilei",
             "quote": "You cannot teach a man anything; you can only help him find it within himself.",
             "birthday": "February 15, 1564",
-            "image_url": "http://lorempixel.com/300/150/"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSaHx3wAZf6UwW75TeeUz5vhkhFfp9Ga9n4UYTVfHLsY3qZNXg",
+			"info": "Galileo Galilei was an Italian polymath. Galileo is a central figure in the transition from natural philosophy to modern science and in the transformation of the scientific Renaissance into a scientific revolution."
         },
         {
             "id": 5,
             "name": "Marie Curie",
             "quote": "Be less curious about people and more curious about ideas.",
             "birthday": "November 7, 1867",
-            "image_url": "http://lorempixel.com/300/150/"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvvJCQvwBAYNk_aBw44bJth3fUt0LI61GexNYnHWxwtqPOtfD2Cg",
+			"info": "Marie Skłodowska Curie was a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize, the first person and only woman to win twice, the only person to win a Nobel Prize in two different sciences, and was part of the Curie family legacy of five Nobel Prizes."
         },
         {
             "id": 6,
             "name": "Charles Darwin",
             "quote": "A man who dares to waste one hour of time has not discovered the value of life.",
             "birthday": "February 12, 1809",
-            "image_url": "http://lorempixel.com/300/150/"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvWwYP5NYp1DQzRJGqnAZuPezVF-ZRh3vrIlAztvqBAbREo8Ix",
+			"info": "Charles Robert Darwin was an English naturalist, geologist and biologist, best known for his contributions to the science of evolution."
         },
         {
             "id": 7,
             "name": "Stephen Hawking",
             "quote": "Intelligence is the ability to adapt to change.",
             "birthday": "January 8, 1942",
-            "image_url": "http://lorempixel.com/300/150/"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWlDuObLY7XzzO1T3HevMFzDMS-i6KhakW93oRgWR7UeJUeY4NBw",
+			"info": "Stephen William Hawking is an English theoretical physicist, cosmologist, author and Director of Research at the Centre for Theoretical Cosmology within the University of Cambridge."
         },
         {
             "id": 8,
             "name": "Johannes Kepler",
             "quote": "Nature uses as little as possible of anything.",
             "birthday": "December 27, 1571",
-            "image_url": "http://lorempixel.com/300/150/"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCrJsMpMgpohg6iPKROkigLCiuUad3BA2Oadia_0D2BKsBOZfX",
+			"info": "Johannes Kepler was a German mathematician, astronomer, and astrologer. Kepler is a key figure in the 17th-century scientific revolution. He is best known for his laws of planetary motion, based on his works Astronomia nova, Harmonices Mundi, and Epitome of Copernican Astronomy."
         },
         {
             "id": 9,
             "name": "Thomas Edison",
             "quote": "Genius is one percent inspiration and ninety-nine percent perspiration.",
             "birthday": "February 11, 1847",
-            "image_url": "http://lorempixel.com/300/150/"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyLiF0w8EJE5VbrLrkb4gNAkCaKJny5T9pgAL_kozfQ_3DSZmXTA",
+			"info": "Thomas Alva Edison was an American inventor and businessman, who has been described as America greatest inventor. He developed many devices that greatly influenced life around the world, including the phonograph, the motion picture camera, and the long-lasting, practical electric light bulb."
         }
     ]
 }

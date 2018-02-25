@@ -19,6 +19,10 @@
   width:60%;
   padding:0 20px;
 }
+.main p {
+color: darkred;
+font-style: italic;
+}
 .right {
   background-color:#6F4E37;
   float:left;
@@ -28,7 +32,22 @@
   text-align:center;
   color:white;
 }
+.rightlink {
+	background-color:cornsilk;
+	color:black;
+}
 
+.rightlink a{
+	padding: 8px 8px;
+    text-align: center;
+    display: inline-block;
+}
+
+.Pstyle {
+text-decoration: underline;
+    font-style: italic;
+    font-weight: 600;
+}
 @media only screen and (max-width:620px) {
   /* For mobile phones: */
   .menu, .main, .right {
@@ -36,12 +55,19 @@
   }
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
 .box2 {
-  display: inline-block;
-  height: 100px;
-  width: 80%;
-  border-style: ridge;
-  margin: 1em;
+	display: inline-block;
+    height: 50px;
+    width: 80%;
+    border-style: ridge;
+    /* margin: 1em; */
+    text-align: center;
+    background-color: wheat;
+    padding-top: 5px;
 }
 
 .typewriter h1 {
@@ -66,4 +92,146 @@
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange }
+}
+
+div.animate {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+  /* margin-left: 10%; */
+  font-weight: bold;
+  color: darkred;
+}
+
+div.animate:first-of-type {    /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+  animation: showup 7s infinite;
+}
+
+div.animatechild:last-of-type {
+  /* margin-left: 10%; */
+  font-weight: bold;
+  color: darkred;
+  width:0px;
+  animation: reveal 7s infinite;
+}
+
+div.animatechild:last-of-type span {
+  margin-left:-355px;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: black;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+  background-color: lightgray;
+}
+
+p.read-more-wrap {
+  padding: 2%;
+  background: #fff9c6;
+  color: darkred;
+  border: 1px solid #fce29f;
+  border-radius: .25em;
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-o-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.profile img {
+    -webkit-animation: blink 2s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 2s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 2s;
+    -o-animation-iteration-count: infinite;
+}
+
+.profile {
+	float: left;
+    position: absolute;
 }
